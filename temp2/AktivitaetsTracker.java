@@ -31,11 +31,11 @@ public class AktivitaetsTracker extends Application {
         // Lege im Projektordner einen Ordner "bilder" an
         // z.B. bilder/Tater.png
 
-        //r4
         //in the last "" you need to paste the path where you saved those imgs 
         mitglieder.add(new Mitglied("Tater", new Image(new File("C:\\Users\\YourPcName\\Documents\\.....\\Tater.png").toURI().toString())));
 
-
+        //here you need to add all the members the way i added you
+    
 
 
 
@@ -87,4 +87,5 @@ public class AktivitaetsTracker extends Application {
         launch();
     }
 }
+
 
